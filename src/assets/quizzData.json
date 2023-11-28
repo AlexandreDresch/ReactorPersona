@@ -1,133 +1,238 @@
 {
-    "portuguese": {
-      "title": "Qual tipo de reator nuclear você seria?",
-      "questions": [
-        {
-          "id": 1,
-          "question": "Qual desses elementos você considera mais importante para um reator nuclear?",
-          "image": "https://media.istockphoto.com/id/1368745971/vector/nuclear-power-station-cooling-tower-low-poly-3d-render-ecology-pollution-save-planet.jpg?s=612x612&w=0&k=20&c=-9Hchyqk1tVgmeD5r8IaGX34sqSmPrYQXmf409LNrU4=",
-          "options": [
-            { "id": 1, "name": "Segurança e estabilidade", "alias": "BWR" },
-            { "id": 2, "name": "Alta eficiência energética", "alias": "PWR" },
-            { "id": 3, "name": "Flexibilidade e adaptabilidade", "alias": "GCR" },
-            { "id": 4, "name": "Desempenho comprovado", "alias": "LWR" },
-            { "id": 5, "name": "Inovação e pesquisa avançada", "alias": "Other" }
-          ]
-        },
-        {
-          "id": 2,
-          "question": "Qual é a sua abordagem preferida para resfriamento de reatores?",
-          "image": "https://globalenergymonitor.org/wp-content/uploads/2022/03/Nuclear-Img-scaled.jpg",
-          "options": [
-            { "id": 1, "name": "Refrigerados a água", "alias": "BWR" },
-            { "id": 2, "name": "Refrigerados a gás", "alias": "GCR" },
-            { "id": 3, "name": "Outros métodos de resfriamento", "alias": "Other" }
-          ]
-        },
-        {
-          "id": 3,
-          "question": "Que tipo de inovação você considera essencial para o futuro dos reatores nucleares?",
-          "image": "https://media.istockphoto.com/id/1094378062/vector/nuclear-energy.jpg?s=612x612&w=0&k=20&c=kkfmlMkQp4bEyuXSb5r92iJqsZipq_QKoAv2SQsdM18=",
-          "options": [
-            { "id": 1, "name": "Desenvolvimento de reatores mais seguros e eficientes", "alias": "BWR" },
-            { "id": 2, "name": "Pesquisa em reatores de próxima geração", "alias": "PWR" },
-            { "id": 3, "name": "Aprimoramento em refrigeração e controle térmico", "alias": "GCR" },
-            { "id": 4, "name": "Investigação em novos materiais e tecnologias", "alias": "Other" }
-          ]
-        },
-        {
-          "id": 4,
-          "question": "Qual é o seu principal objetivo ao operar um reator nuclear?",
-          "image": "https://www.powermag.com/wp-content/uploads/2018/05/nuclearplant_oil_sonalpatel.jpg",
-          "options": [
-            { "id": 1, "name": "Produção de energia de forma segura e confiável", "alias": "LWR" },
-            { "id": 2, "name": "Inovação e avanço na pesquisa nuclear", "alias": "Other" }
-          ]
-        },
-        {
-          "id": 5,
-          "question": "Qual desses apelidos de reator mais se encaixa em você?",
-          "image": "https://static.vecteezy.com/system/resources/previews/023/487/304/non_2x/nuclear-power-plant-production-of-atomic-energy-isolated-illustration-on-white-background-vector.jpg",
-          "options": [
-            { "id": 1, "name": "Reator Estável", "alias": "BWR" },
-            { "id": 2, "name": "Reator de Alta Performance", "alias": "PWR" },
-            { "id": 3, "name": "Reator Inovador", "alias": "GCR" },
-            { "id": 4, "name": "Reator de Próxima Geração", "alias": "Other" }
-          ]
-        }
-      ],
-      "results": {
-        "BWR": "Você seria um Reator a Água Fervente (BWR) - um tipo estável e confiável!",
-        "PWR": "Você seria um Reator Refrigerado a Água Pressurizada (PWR) - focado em alta eficiência e desempenho!",
-        "GCR": "Você seria um Reator Refrigerado a Gás (GCR) - inovador e flexível!",
-        "LWR": "Você seria um Reator de Urânio Leve (LWR) - confiável e de alto desempenho!",
-        "Other": "Você seria um tipo de Reator Nuclear que busca a inovação e avanços em pesquisa!"
+  "portuguese": {
+    "title": "Qual tipo de reator nuclear você seria?",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual desses elementos você considera mais importante para um reator nuclear?",
+        "image": "https://media.istockphoto.com/id/1368745971/vector/nuclear-power-station-cooling-tower-low-poly-3d-render-ecology-pollution-save-planet.jpg?s=612x612&w=0&k=20&c=-9Hchyqk1tVgmeD5r8IaGX34sqSmPrYQXmf409LNrU4=",
+        "options": [
+          { "id": 1, "name": "Segurança e estabilidade", "alias": "BWR" },
+          { "id": 2, "name": "Alta eficiência energética", "alias": "PWR" },
+          { "id": 3, "name": "Flexibilidade e adaptabilidade", "alias": "GCR" },
+          { "id": 4, "name": "Desempenho comprovado", "alias": "LWR" },
+          { "id": 5, "name": "Inovação e pesquisa avançada", "alias": "Other" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é a sua abordagem preferida para resfriamento de reatores?",
+        "image": "https://globalenergymonitor.org/wp-content/uploads/2022/03/Nuclear-Img-scaled.jpg",
+        "options": [
+          { "id": 1, "name": "Refrigerados a água", "alias": "BWR" },
+          { "id": 2, "name": "Refrigerados a gás", "alias": "GCR" },
+          {
+            "id": 3,
+            "name": "Outros métodos de resfriamento",
+            "alias": "Other"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Que tipo de inovação você considera essencial para o futuro dos reatores nucleares?",
+        "image": "https://media.istockphoto.com/id/1094378062/vector/nuclear-energy.jpg?s=612x612&w=0&k=20&c=kkfmlMkQp4bEyuXSb5r92iJqsZipq_QKoAv2SQsdM18=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Desenvolvimento de reatores mais seguros e eficientes",
+            "alias": "BWR"
+          },
+          {
+            "id": 2,
+            "name": "Pesquisa em reatores de próxima geração",
+            "alias": "PWR"
+          },
+          {
+            "id": 3,
+            "name": "Aprimoramento em refrigeração e controle térmico",
+            "alias": "GCR"
+          },
+          {
+            "id": 4,
+            "name": "Investigação em novos materiais e tecnologias",
+            "alias": "Other"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual é o seu principal objetivo ao operar um reator nuclear?",
+        "image": "https://www.powermag.com/wp-content/uploads/2018/05/nuclearplant_oil_sonalpatel.jpg",
+        "options": [
+          {
+            "id": 1,
+            "name": "Produção de energia de forma segura e confiável",
+            "alias": "LWR"
+          },
+          {
+            "id": 2,
+            "name": "Inovação e avanço na pesquisa nuclear",
+            "alias": "Other"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual desses apelidos de reator mais se encaixa em você?",
+        "image": "https://static.vecteezy.com/system/resources/previews/023/487/304/non_2x/nuclear-power-plant-production-of-atomic-energy-isolated-illustration-on-white-background-vector.jpg",
+        "options": [
+          { "id": 1, "name": "Reator Estável", "alias": "BWR" },
+          { "id": 2, "name": "Reator de Alta Performance", "alias": "PWR" },
+          { "id": 3, "name": "Reator Inovador", "alias": "GCR" },
+          { "id": 4, "name": "Reator de Próxima Geração", "alias": "Other" }
+        ]
       }
-    },
-    "english": {
-      "title": "What type of nuclear reactor would you be?",
-      "questions": [
-        {
-          "id": 1,
-          "question": "Which of these elements do you consider most important for a nuclear reactor?",
-          "image": "https://media.istockphoto.com/id/1368745971/vector/nuclear-power-station-cooling-tower-low-poly-3d-render-ecology-pollution-save-planet.jpg?s=612x612&w=0&k=20&c=-9Hchyqk1tVgmeD5r8IaGX34sqSmPrYQXmf409LNrU4=",
-          "options": [
-            { "id": 1, "name": "Safety and stability", "alias": "BWR" },
-            { "id": 2, "name": "High energy efficiency", "alias": "PWR" },
-            { "id": 3, "name": "Flexibility and adaptability", "alias": "GCR" },
-            { "id": 4, "name": "Proven performance", "alias": "LWR" },
-            { "id": 5, "name": "Innovation and advanced research", "alias": "Other" }
-          ]
-        },
-        {
-          "id": 2,
-          "question": "What is your preferred approach for reactor cooling?",
-          "image": "https://globalenergymonitor.org/wp-content/uploads/2022/03/Nuclear-Img-scaled.jpg",
-          "options": [
-            { "id": 1, "name": "Water-cooled", "alias": "BWR" },
-            { "id": 2, "name": "Gas-cooled", "alias": "GCR" },
-            { "id": 3, "name": "Other cooling methods", "alias": "Other" }
-          ]
-        },
-        {
-          "id": 3,
-          "question": "What kind of innovation do you consider essential for the future of nuclear reactors?",
-          "image": "https://media.istockphoto.com/id/1094378062/vector/nuclear-energy.jpg?s=612x612&w=0&k=20&c=kkfmlMkQp4bEyuXSb5r92iJqsZipq_QKoAv2SQsdM18=",
-          "options": [
-            { "id": 1, "name": "Developing safer and more efficient reactors", "alias": "BWR" },
-            { "id": 2, "name": "Research on next-generation reactors", "alias": "PWR" },
-            { "id": 3, "name": "Enhancements in cooling and thermal control", "alias": "GCR" },
-            { "id": 4, "name": "Investigating new materials and technologies", "alias": "Other" }
-          ]
-        },
-        {
-          "id": 4,
-          "question": "What is your main goal when operating a nuclear reactor?",
-          "image": "https://www.powermag.com/wp-content/uploads/2018/05/nuclearplant_oil_sonalpatel.jpg",
-          "options": [
-            { "id": 1, "name": "Producing energy safely and reliably", "alias": "LWR" },
-            { "id": 2, "name": "Innovation and advancement in nuclear research", "alias": "Other" }
-          ]
-        },
-        {
-          "id": 5,
-          "question": "Which reactor nickname suits you best?",
-          "image": "https://static.vecteezy.com/system/resources/previews/023/487/304/non_2x/nuclear-power-plant-production-of-atomic-energy-isolated-illustration-on-white-background-vector.jpg",
-          "options": [
-            { "id": 1, "name": "Stable Reactor", "alias": "BWR" },
-            { "id": 2, "name": "High-Performance Reactor", "alias": "PWR" },
-            { "id": 3, "name": "Innovative Reactor", "alias": "GCR" },
-            { "id": 4, "name": "Next-Generation Reactor", "alias": "Other" }
-          ]
-        }
-      ],
-      "results": {
-        "BWR": "You'd be a Boiling Water Reactor (BWR) - stable and reliable!",
-        "PWR": "You'd be a Pressurized Water Reactor (PWR) - focused on high efficiency and performance!",
-        "GCR": "You'd be a Gas-Cooled Reactor (GCR) - innovative and flexible!",
-        "LWR": "You'd be a Light Water Reactor (LWR) - reliable and high-performing!",
-        "Other": "You'd be a type of Nuclear Reactor striving for innovation and advancements in research!"
+    ],
+    "results": [
+      {
+        "type": "BWR",
+        "title": "Você seria um Reator a Água Fervente (BWR) - um tipo estável e confiável!",
+        "description": "Os reatores de água fervente (BWR) são conhecidos por sua confiabilidade e estabilidade. Eles utilizam água como refrigerante e moderador, permitindo a geração de vapor diretamente no núcleo do reator. Esses reatores são relativamente simples em design e operação, mantendo um histórico estável e seguro na geração de energia elétrica.",
+        "image": "https://www.energyencyclopedia.com/data/web/img-nuclear-energy/the-nuclear-reactors/boiling-water-reactor-bwr/92304111.jpg"
+      },
+      {
+        "type": "PWR",
+        "title": "Você seria um Reator Refrigerado a Água Pressurizada (PWR) - focado em alta eficiência e desempenho!",
+        "description": "Reatores refrigerados a água pressurizada (PWR) são reconhecidos por sua alta eficiência e desempenho. Eles usam água sob alta pressão como refrigerante e moderador, gerando calor para produzir vapor e, por consequência, energia elétrica. Os PWRs são amplamente utilizados em plantas de energia nuclear em todo o mundo, destacando-se pela sua comprovada eficiência e confiabilidade.",
+        "image": "https://energyeducation.ca/wiki/images/0/00/Wattsbar.jpg"
+      },
+      {
+        "type": "GCR",
+        "title": "Você seria um Reator Refrigerado a Gás (GCR) - inovador e flexível!",
+        "description": "Reatores refrigerados a gás (GCR) utilizam gases como CO2, hélio ou nitrogênio como fluido de resfriamento. Eles são reconhecidos por sua flexibilidade, inovação e potencial para avanços na tecnologia nuclear. Os GCRs são conhecidos por suas características de segurança e pela capacidade de operar em diferentes condições de temperatura e pressão.",
+        "image": "https://www.energyencyclopedia.com/data/web/img-nuclear-energy/the-nuclear-reactors/gas-cooled-reactor-gcr-and-advanced-gas-cooled-reactor-agr/34064150.jpg"
+      },
+      {
+        "type": "LWR",
+        "title": "Você seria um Reator de Urânio Leve (LWR) - confiável e de alto desempenho!",
+        "description": "Reatores de urânio leve (LWR) são amplamente reconhecidos por sua confiabilidade e alto desempenho. Eles utilizam água leve (H2O) como refrigerante e moderador, sendo uma das tecnologias nucleares mais comuns. Os LWRs são eficientes na geração de energia elétrica, mantendo um histórico de segurança e confiabilidade em operações nucleares.",
+        "image": "https://www.energy.gov/sites/default/files/styles/full_article_width/public/sweet_looking_nuclear_power_thingy.png?itok=WzAvixs0"
+      },
+      {
+        "type": "Other",
+        "title": "Você seria um tipo de Reator Nuclear que busca a inovação e avanços em pesquisa!",
+        "description": "Este tipo de reator representa uma abordagem voltada para inovações e avanços na pesquisa de tecnologias nucleares. Buscando constantemente novos métodos, materiais e tecnologias, os reatores 'Other' se concentram em aprimorar a eficiência, segurança e sustentabilidade das futuras gerações de reatores nucleares.",
+        "image": "https://wp.technologyreview.com/wp-content/uploads/2019/02/ma19nuclear-12.jpg"
       }
-    }
+    ]
+  },
+  "english": {
+    "title": "What type of nuclear reactor would you be?",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which of these elements do you consider most important for a nuclear reactor?",
+        "image": "https://media.istockphoto.com/id/1368745971/vector/nuclear-power-station-cooling-tower-low-poly-3d-render-ecology-pollution-save-planet.jpg?s=612x612&w=0&k=20&c=-9Hchyqk1tVgmeD5r8IaGX34sqSmPrYQXmf409LNrU4=",
+        "options": [
+          { "id": 1, "name": "Safety and stability", "alias": "BWR" },
+          { "id": 2, "name": "High energy efficiency", "alias": "PWR" },
+          { "id": 3, "name": "Flexibility and adaptability", "alias": "GCR" },
+          { "id": 4, "name": "Proven performance", "alias": "LWR" },
+          {
+            "id": 5,
+            "name": "Innovation and advanced research",
+            "alias": "Other"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "What is your preferred approach for reactor cooling?",
+        "image": "https://globalenergymonitor.org/wp-content/uploads/2022/03/Nuclear-Img-scaled.jpg",
+        "options": [
+          { "id": 1, "name": "Water-cooled", "alias": "BWR" },
+          { "id": 2, "name": "Gas-cooled", "alias": "GCR" },
+          { "id": 3, "name": "Other cooling methods", "alias": "Other" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "What kind of innovation do you consider essential for the future of nuclear reactors?",
+        "image": "https://media.istockphoto.com/id/1094378062/vector/nuclear-energy.jpg?s=612x612&w=0&k=20&c=kkfmlMkQp4bEyuXSb5r92iJqsZipq_QKoAv2SQsdM18=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Developing safer and more efficient reactors",
+            "alias": "BWR"
+          },
+          {
+            "id": 2,
+            "name": "Research on next-generation reactors",
+            "alias": "PWR"
+          },
+          {
+            "id": 3,
+            "name": "Enhancements in cooling and thermal control",
+            "alias": "GCR"
+          },
+          {
+            "id": 4,
+            "name": "Investigating new materials and technologies",
+            "alias": "Other"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "What is your main goal when operating a nuclear reactor?",
+        "image": "https://www.powermag.com/wp-content/uploads/2018/05/nuclearplant_oil_sonalpatel.jpg",
+        "options": [
+          {
+            "id": 1,
+            "name": "Producing energy safely and reliably",
+            "alias": "LWR"
+          },
+          {
+            "id": 2,
+            "name": "Innovation and advancement in nuclear research",
+            "alias": "Other"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Which reactor nickname suits you best?",
+        "image": "https://static.vecteezy.com/system/resources/previews/023/487/304/non_2x/nuclear-power-plant-production-of-atomic-energy-isolated-illustration-on-white-background-vector.jpg",
+        "options": [
+          { "id": 1, "name": "Stable Reactor", "alias": "BWR" },
+          { "id": 2, "name": "High-Performance Reactor", "alias": "PWR" },
+          { "id": 3, "name": "Innovative Reactor", "alias": "GCR" },
+          { "id": 4, "name": "Next-Generation Reactor", "alias": "Other" }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "type": "BWR",
+        "title": "You'd be a Boiling Water Reactor (BWR) - stable and reliable!",
+        "description": "Boiling Water Reactors (BWRs) are known for their reliability and stability. They use water as a coolant and moderator, allowing the generation of steam directly in the reactor core. These reactors are relatively simple in design and operation, maintaining a stable and safe track record in electricity generation.",
+        "image": "https://www.energyencyclopedia.com/data/web/img-nuclear-energy/the-nuclear-reactors/boiling-water-reactor-bwr/92304111.jpg"
+      },
+      {
+        "type": "PWR",
+        "title": "You'd be a Pressurized Water Reactor (PWR) - focused on high efficiency and performance!",
+        "description": "Pressurized Water Reactors (PWRs) are recognized for their high efficiency and performance. They use water under high pressure as a coolant and moderator, generating heat to produce steam and, consequently, electricity. PWRs are widely used in nuclear power plants worldwide, standing out for their proven efficiency and reliability.",
+        "image": "https://energyeducation.ca/wiki/images/0/00/Wattsbar.jpg"
+      },
+      {
+        "type": "GCR",
+        "title": "You'd be a Gas-Cooled Reactor (GCR) - innovative and flexible!",
+        "description": "Gas-Cooled Reactors (GCRs) use gases such as CO2, helium, or nitrogen as the cooling fluid. They are known for their flexibility, innovation, and potential for advancements in nuclear technology. GCRs are recognized for their safety features and the ability to operate under different temperature and pressure conditions.",
+        "image": "https://www.energyencyclopedia.com/data/web/img-nuclear-energy/the-nuclear-reactors/gas-cooled-reactor-gcr-and-advanced-gas-cooled-reactor-agr/34064150.jpg"
+      },
+      {
+        "type": "LWR",
+        "title": "You'd be a Light Water Reactor (LWR) - reliable and high-performing!",
+        "description": "Light Water Reactors (LWRs) are widely recognized for their reliability and high performance. They use light water (H2O) as a coolant and moderator, being one of the most common nuclear technologies. LWRs are efficient in generating electricity while maintaining a track record of safety and reliability in nuclear operations.",
+        "image": "https://www.energy.gov/sites/default/files/styles/full_article_width/public/sweet_looking_nuclear_power_thingy.png?itok=WzAvixs0"
+      },
+      {
+        "type": "Other",
+        "title": "You'd be a type of Nuclear Reactor striving for innovation and advancements in research!",
+        "description": "This type of reactor represents an approach focused on innovations and advancements in nuclear technology research. Constantly seeking new methods, materials, and technologies, 'Other' reactors focus on enhancing the efficiency, safety, and sustainability of future generations of nuclear reactors.",
+        "image": "https://wp.technologyreview.com/wp-content/uploads/2019/02/ma19nuclear-12.jpg"
+      }
+    ]
   }
-  
+}
