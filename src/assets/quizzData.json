@@ -11,7 +11,7 @@
           { "id": 2, "name": "Alta eficiência energética", "alias": "PWR" },
           { "id": 3, "name": "Flexibilidade e adaptabilidade", "alias": "GCR" },
           { "id": 4, "name": "Desempenho comprovado", "alias": "LWR" },
-          { "id": 5, "name": "Inovação e pesquisa avançada", "alias": "Other" }
+          { "id": 5, "name": "Inovação e pesquisa avançada", "alias": "SMR" }
         ]
       },
       {
@@ -24,14 +24,14 @@
           {
             "id": 3,
             "name": "Outros métodos de resfriamento",
-            "alias": "Other"
+            "alias": "SMR"
           }
         ]
       },
       {
         "id": 3,
         "question": "Que tipo de inovação você considera essencial para o futuro dos reatores nucleares?",
-        "image": "https://media.istockphoto.com/id/1094378062/vector/nuclear-energy.jpg?s=612x612&w=0&k=20&c=kkfmlMkQp4bEyuXSb5r92iJqsZipq_QKoAv2SQsdM18=",
+        "image": "https://www.iaea.org/sites/default/files/styles/original_image_size/public/nuclearpower-1140x640.jpg?itok=gwVrY8nK",
         "options": [
           {
             "id": 1,
@@ -51,7 +51,7 @@
           {
             "id": 4,
             "name": "Investigação em novos materiais e tecnologias",
-            "alias": "Other"
+            "alias": "SMR"
           }
         ]
       },
@@ -68,19 +68,19 @@
           {
             "id": 2,
             "name": "Inovação e avanço na pesquisa nuclear",
-            "alias": "Other"
+            "alias": "SMR"
           }
         ]
       },
       {
         "id": 5,
         "question": "Qual desses apelidos de reator mais se encaixa em você?",
-        "image": "https://static.vecteezy.com/system/resources/previews/023/487/304/non_2x/nuclear-power-plant-production-of-atomic-energy-isolated-illustration-on-white-background-vector.jpg",
+        "image": "https://www.ge.com/news/sites/default/files/styles/full_header/public/Reports/2021-06/GE%20Nuclear%20WP%20key%20visual_MENA.jpg?itok=3o1_piTN",
         "options": [
           { "id": 1, "name": "Reator Estável", "alias": "BWR" },
           { "id": 2, "name": "Reator de Alta Performance", "alias": "PWR" },
           { "id": 3, "name": "Reator Inovador", "alias": "GCR" },
-          { "id": 4, "name": "Reator de Próxima Geração", "alias": "Other" }
+          { "id": 4, "name": "Reator de Próxima Geração", "alias": "SMR" }
         ]
       }
     ],
@@ -110,9 +110,9 @@
         "image": "https://www.energy.gov/sites/default/files/styles/full_article_width/public/sweet_looking_nuclear_power_thingy.png?itok=WzAvixs0"
       },
       {
-        "type": "Other",
-        "title": "Você seria um tipo de Reator Nuclear que busca a inovação e avanços em pesquisa!",
-        "description": "Este tipo de reator representa uma abordagem voltada para inovações e avanços na pesquisa de tecnologias nucleares. Buscando constantemente novos métodos, materiais e tecnologias, os reatores 'Other' se concentram em aprimorar a eficiência, segurança e sustentabilidade das futuras gerações de reatores nucleares.",
+        "type": "SMR",
+        "title": "Você seria um Small Modular Reactor (SMR) - que busca a inovação e avanços em pesquisa!",
+        "description": "Este tipo de reator representa uma abordagem voltada para inovações e avanços na pesquisa de tecnologias nucleares. Buscando constantemente novos métodos, materiais e tecnologias, os SMRs se concentram em aprimorar a eficiência, segurança e sustentabilidade das futuras gerações de reatores nucleares.",
         "image": "https://wp.technologyreview.com/wp-content/uploads/2019/02/ma19nuclear-12.jpg"
       }
     ]
@@ -132,7 +132,7 @@
           {
             "id": 5,
             "name": "Innovation and advanced research",
-            "alias": "Other"
+            "alias": "SMR"
           }
         ]
       },
@@ -143,13 +143,13 @@
         "options": [
           { "id": 1, "name": "Water-cooled", "alias": "BWR" },
           { "id": 2, "name": "Gas-cooled", "alias": "GCR" },
-          { "id": 3, "name": "Other cooling methods", "alias": "Other" }
+          { "id": 3, "name": "SMR cooling methods", "alias": "SMR" }
         ]
       },
       {
         "id": 3,
         "question": "What kind of innovation do you consider essential for the future of nuclear reactors?",
-        "image": "https://media.istockphoto.com/id/1094378062/vector/nuclear-energy.jpg?s=612x612&w=0&k=20&c=kkfmlMkQp4bEyuXSb5r92iJqsZipq_QKoAv2SQsdM18=",
+        "image": "https://www.iaea.org/sites/default/files/styles/original_image_size/public/nuclearpower-1140x640.jpg?itok=gwVrY8nK",
         "options": [
           {
             "id": 1,
@@ -169,7 +169,7 @@
           {
             "id": 4,
             "name": "Investigating new materials and technologies",
-            "alias": "Other"
+            "alias": "SMR"
           }
         ]
       },
@@ -186,19 +186,19 @@
           {
             "id": 2,
             "name": "Innovation and advancement in nuclear research",
-            "alias": "Other"
+            "alias": "SMR"
           }
         ]
       },
       {
         "id": 5,
         "question": "Which reactor nickname suits you best?",
-        "image": "https://static.vecteezy.com/system/resources/previews/023/487/304/non_2x/nuclear-power-plant-production-of-atomic-energy-isolated-illustration-on-white-background-vector.jpg",
+        "image": "https://www.ge.com/news/sites/default/files/styles/full_header/public/Reports/2021-06/GE%20Nuclear%20WP%20key%20visual_MENA.jpg?itok=3o1_piTN",
         "options": [
           { "id": 1, "name": "Stable Reactor", "alias": "BWR" },
           { "id": 2, "name": "High-Performance Reactor", "alias": "PWR" },
           { "id": 3, "name": "Innovative Reactor", "alias": "GCR" },
-          { "id": 4, "name": "Next-Generation Reactor", "alias": "Other" }
+          { "id": 4, "name": "Next-Generation Reactor", "alias": "SMR" }
         ]
       }
     ],
@@ -228,9 +228,9 @@
         "image": "https://www.energy.gov/sites/default/files/styles/full_article_width/public/sweet_looking_nuclear_power_thingy.png?itok=WzAvixs0"
       },
       {
-        "type": "Other",
-        "title": "You'd be a type of Nuclear Reactor striving for innovation and advancements in research!",
-        "description": "This type of reactor represents an approach focused on innovations and advancements in nuclear technology research. Constantly seeking new methods, materials, and technologies, 'Other' reactors focus on enhancing the efficiency, safety, and sustainability of future generations of nuclear reactors.",
+        "type": "SMR",
+        "title": "You'd be a Small Modular Reactor (SMR) - striving for innovation and advancements in research!",
+        "description": "This type of reactor represents an approach focused on innovations and advancements in nuclear technology research. Constantly seeking new methods, materials, and technologies, SMRs focus on enhancing the efficiency, safety, and sustainability of future generations of nuclear reactors.",
         "image": "https://wp.technologyreview.com/wp-content/uploads/2019/02/ma19nuclear-12.jpg"
       }
     ]
