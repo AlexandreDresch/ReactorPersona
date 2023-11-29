@@ -1,3 +1,70 @@
-<div>
-    Quizz
+<div class="flex flex-col gap-4 text-white max-w-3xl mt-14 sm:mt-0">
+  <ng-container *ngIf="!languageSelected" class="w-full">
+    <h3 class="font-semibold text-base sm:text-lg text-center">
+      First select your language:
+    </h3>
+    <button
+      (click)="setLanguage('portuguese')"
+      class="w-full flex items-center justify-center p-3 border-solid border-[1px] text-white border-cyan-100/50 rounded-md hover:border-white hover:bg-white hover:text-blue-500 transition-colors"
+    >
+      <span class="text-base font-medium">🇧🇷 Portuguese</span>
+    </button>
+    <button
+      (click)="setLanguage('english')"
+      class="w-full flex items-center justify-center p-3 border-solid border-[1px] text-white border-cyan-100/50 rounded-md hover:border-white hover:bg-white hover:text-blue-500 transition-colors"
+    >
+      <span class="text-base font-medium">🇺🇸 English</span>
+    </button>
+  </ng-container>
+
+  <ng-container *ngIf="languageSelected">
+    <ng-container class="flex w-full justify-center mb-4" *ngIf="!finished">
+      <h1 class="font-semibold text-base sm:text-lg text-center">{{ title }}</h1>
+    </ng-container>
+
+    <ng-container *ngIf="!finished">
+      <div class="w-full" *ngIf="languageSelected">
+        <img
+          class="rounded-md w-full min-h-fit max-h-96 object-fill"
+          [src]="selectedQuestion.image"
+          [alt]="selectedQuestion.question"
+        />
+        <h3 class="w-full text-center mt-4">{{ selectedQuestion.question }}</h3>
+      </div>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 gap-1"
+        *ngIf="languageSelected"
+      >
+        <button
+          *ngFor="let option of selectedQuestion.options"
+          (click)="selectChoice(option.alias)"
+          class="w-full flex items-center justify-center p-3 border-solid border-[1px] text-white border-cyan-100/50 rounded-md hover:border-white hover:bg-white hover:text-blue-500 transition-colors"
+        >
+          <span class="text-base font-medium">{{ option.name }}</span>
+        </button>
+      </div>
+    </ng-container>
+
+    <ng-container *ngIf="finished" class="flex flex-col gap-4">
+      <h2 class="font-semibold text-base sm:text-lg text-center">
+        {{ selectedAnswer.title }}
+      </h2>
+      <img
+        [src]="selectedAnswer.image"
+        [alt]="selectedAnswer.title"
+        class="rounded-md w-full min-h-fit max-h-96 object-fill"
+      />
+      <p>{{ selectedAnswer.description }}</p>
+
+      <button
+        (click)="restartGame()"
+        class="w-full flex items-center justify-center p-3 border-solid border-[1px] text-white border-cyan-100/50 rounded-md hover:border-white hover:bg-white hover:text-blue-500 transition-colors"
+      >
+        <span class="text-base font-medium">{{
+          language === "portuguese" ? "Jogar Novamente" : "Play Again"
+        }}</span>
+      </button>
+    </ng-container>
+  </ng-container>
 </div>
